@@ -8,7 +8,8 @@ Alpha version that works for my purposes, use at your own risk!
 
 # Usage
 Grab the ane file from /build
-Install ANE into your project in the usual way (look for other tutorials online for this.
+
+Install ANE into your project in the usual way (look for other tutorials online for this.)
 
 
 Then something like:
