@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		729E56451CB659FC00ED7767 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729E56441CB659FC00ED7767 /* main.m */; };
+		729E56481CB659FC00ED7767 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729E56471CB659FC00ED7767 /* AppDelegate.m */; };
+		729E564B1CB659FC00ED7767 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729E564A1CB659FC00ED7767 /* ViewController.m */; };
+		729E564E1CB659FC00ED7767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E564C1CB659FC00ED7767 /* Main.storyboard */; };
+		729E56501CB659FC00ED7767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729E564F1CB659FC00ED7767 /* Assets.xcassets */; };
+		729E56531CB659FC00ED7767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E56511CB659FC00ED7767 /* LaunchScreen.storyboard */; };
+		729E565E1CB659FC00ED7767 /* TorchTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729E565D1CB659FC00ED7767 /* TorchTestTests.m */; };
+		729E56691CB659FC00ED7767 /* TorchTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729E56681CB659FC00ED7767 /* TorchTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		729E565A1CB659FC00ED7767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729E56381CB659FB00ED7767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729E563F1CB659FC00ED7767;
+			remoteInfo = TorchTest;
+		};
+		729E56651CB659FC00ED7767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729E56381CB659FB00ED7767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729E563F1CB659FC00ED7767;
+			remoteInfo = TorchTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		729E56401CB659FC00ED7767 /* TorchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E56441CB659FC00ED7767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		729E56461CB659FC00ED7767 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		729E56471CB659FC00ED7767 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		729E56491CB659FC00ED7767 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		729E564A1CB659FC00ED7767 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		729E564D1CB659FC00ED7767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		729E564F1CB659FC00ED7767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		729E56521CB659FC00ED7767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		729E56541CB659FC00ED7767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729E56591CB659FC00ED7767 /* TorchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E565D1CB659FC00ED7767 /* TorchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorchTestTests.m; sourceTree = "<group>"; };
+		729E565F1CB659FC00ED7767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729E56641CB659FC00ED7767 /* TorchTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E56681CB659FC00ED7767 /* TorchTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorchTestUITests.m; sourceTree = "<group>"; };
+		729E566A1CB659FC00ED7767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		729E563D1CB659FC00ED7767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56561CB659FC00ED7767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56611CB659FC00ED7767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		729E56371CB659FB00ED7767 = {
+			isa = PBXGroup;
+			children = (
+				729E56421CB659FC00ED7767 /* TorchTest */,
+				729E565C1CB659FC00ED7767 /* TorchTestTests */,
+				729E56671CB659FC00ED7767 /* TorchTestUITests */,
+				729E56411CB659FC00ED7767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		729E56411CB659FC00ED7767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729E56401CB659FC00ED7767 /* TorchTest.app */,
+				729E56591CB659FC00ED7767 /* TorchTestTests.xctest */,
+				729E56641CB659FC00ED7767 /* TorchTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		729E56421CB659FC00ED7767 /* TorchTest */ = {
+			isa = PBXGroup;
+			children = (
+				729E56461CB659FC00ED7767 /* AppDelegate.h */,
+				729E56471CB659FC00ED7767 /* AppDelegate.m */,
+				729E56491CB659FC00ED7767 /* ViewController.h */,
+				729E564A1CB659FC00ED7767 /* ViewController.m */,
+				729E564C1CB659FC00ED7767 /* Main.storyboard */,
+				729E564F1CB659FC00ED7767 /* Assets.xcassets */,
+				729E56511CB659FC00ED7767 /* LaunchScreen.storyboard */,
+				729E56541CB659FC00ED7767 /* Info.plist */,
+				729E56431CB659FC00ED7767 /* Supporting Files */,
+			);
+			path = TorchTest;
+			sourceTree = "<group>";
+		};
+		729E56431CB659FC00ED7767 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				729E56441CB659FC00ED7767 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		729E565C1CB659FC00ED7767 /* TorchTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				729E565D1CB659FC00ED7767 /* TorchTestTests.m */,
+				729E565F1CB659FC00ED7767 /* Info.plist */,
+			);
+			path = TorchTestTests;
+			sourceTree = "<group>";
+		};
+		729E56671CB659FC00ED7767 /* TorchTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				729E56681CB659FC00ED7767 /* TorchTestUITests.m */,
+				729E566A1CB659FC00ED7767 /* Info.plist */,
+			);
+			path = TorchTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		729E563F1CB659FC00ED7767 /* TorchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E566D1CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTest" */;
+			buildPhases = (
+				729E563C1CB659FC00ED7767 /* Sources */,
+				729E563D1CB659FC00ED7767 /* Frameworks */,
+				729E563E1CB659FC00ED7767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorchTest;
+			productName = TorchTest;
+			productReference = 729E56401CB659FC00ED7767 /* TorchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		729E56581CB659FC00ED7767 /* TorchTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E56701CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTestTests" */;
+			buildPhases = (
+				729E56551CB659FC00ED7767 /* Sources */,
+				729E56561CB659FC00ED7767 /* Frameworks */,
+				729E56571CB659FC00ED7767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729E565B1CB659FC00ED7767 /* PBXTargetDependency */,
+			);
+			name = TorchTestTests;
+			productName = TorchTestTests;
+			productReference = 729E56591CB659FC00ED7767 /* TorchTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		729E56631CB659FC00ED7767 /* TorchTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E56731CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTestUITests" */;
+			buildPhases = (
+				729E56601CB659FC00ED7767 /* Sources */,
+				729E56611CB659FC00ED7767 /* Frameworks */,
+				729E56621CB659FC00ED7767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729E56661CB659FC00ED7767 /* PBXTargetDependency */,
+			);
+			name = TorchTestUITests;
+			productName = TorchTestUITests;
+			productReference = 729E56641CB659FC00ED7767 /* TorchTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		729E56381CB659FB00ED7767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MBX Ltd";
+				TargetAttributes = {
+					729E563F1CB659FC00ED7767 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = C8P634DKQN;
+					};
+					729E56581CB659FC00ED7767 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 729E563F1CB659FC00ED7767;
+					};
+					729E56631CB659FC00ED7767 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 729E563F1CB659FC00ED7767;
+					};
+				};
+			};
+			buildConfigurationList = 729E563B1CB659FB00ED7767 /* Build configuration list for PBXProject "TorchTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 729E56371CB659FB00ED7767;
+			productRefGroup = 729E56411CB659FC00ED7767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729E563F1CB659FC00ED7767 /* TorchTest */,
+				729E56581CB659FC00ED7767 /* TorchTestTests */,
+				729E56631CB659FC00ED7767 /* TorchTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		729E563E1CB659FC00ED7767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E56531CB659FC00ED7767 /* LaunchScreen.storyboard in Resources */,
+				729E56501CB659FC00ED7767 /* Assets.xcassets in Resources */,
+				729E564E1CB659FC00ED7767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56571CB659FC00ED7767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56621CB659FC00ED7767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		729E563C1CB659FC00ED7767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E564B1CB659FC00ED7767 /* ViewController.m in Sources */,
+				729E56481CB659FC00ED7767 /* AppDelegate.m in Sources */,
+				729E56451CB659FC00ED7767 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56551CB659FC00ED7767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E565E1CB659FC00ED7767 /* TorchTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729E56601CB659FC00ED7767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E56691CB659FC00ED7767 /* TorchTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		729E565B1CB659FC00ED7767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729E563F1CB659FC00ED7767 /* TorchTest */;
+			targetProxy = 729E565A1CB659FC00ED7767 /* PBXContainerItemProxy */;
+		};
+		729E56661CB659FC00ED7767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729E563F1CB659FC00ED7767 /* TorchTest */;
+			targetProxy = 729E56651CB659FC00ED7767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		729E564C1CB659FC00ED7767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				729E564D1CB659FC00ED7767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		729E56511CB659FC00ED7767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				729E56521CB659FC00ED7767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		729E566B1CB659FC00ED7767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		729E566C1CB659FC00ED7767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		729E566E1CB659FC00ED7767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TorchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		729E566F1CB659FC00ED7767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TorchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		729E56711CB659FC00ED7767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TorchTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchTest.app/TorchTest";
+			};
+			name = Debug;
+		};
+		729E56721CB659FC00ED7767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TorchTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorchTest.app/TorchTest";
+			};
+			name = Release;
+		};
+		729E56741CB659FC00ED7767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TorchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TorchTest;
+			};
+			name = Debug;
+		};
+		729E56751CB659FC00ED7767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TorchTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbxdigital.ios.torchControlTest.TorchTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TorchTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		729E563B1CB659FB00ED7767 /* Build configuration list for PBXProject "TorchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E566B1CB659FC00ED7767 /* Debug */,
+				729E566C1CB659FC00ED7767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729E566D1CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E566E1CB659FC00ED7767 /* Debug */,
+				729E566F1CB659FC00ED7767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E56701CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E56711CB659FC00ED7767 /* Debug */,
+				729E56721CB659FC00ED7767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		729E56731CB659FC00ED7767 /* Build configuration list for PBXNativeTarget "TorchTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E56741CB659FC00ED7767 /* Debug */,
+				729E56751CB659FC00ED7767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 729E56381CB659FB00ED7767 /* Project object */;
+}

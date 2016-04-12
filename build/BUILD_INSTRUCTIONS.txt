@@ -1,0 +1,16 @@
+
+
+## From Tutorial
+adt -package -target ane Output.ane extension.xml -swc VolumeLib.swc -platform iPhone-ARM -C ios . -platformoptions platformoptions.xml -platform Android-ARM -C android . -platform default -C default .
+
+
+## Path to ADT
+"c:\Program Files\Adobe\Adobe Flash Builder 4.7 (64 Bit)\sdks\4.6.0\bin\adt"
+
+
+## Path to this project
+D:\Dropbox\LIB\ANE\TorchControl\build\
+
+
+## Actual build command
+"c:\Program Files\Adobe\Adobe Flash Builder 4.7 (64 Bit)\sdks\4.6.0\bin\adt" -package -target ane D:\Dropbox\LIB\ANE\TorchControl\build\TorchControl.ane D:\Dropbox\LIB\ANE\TorchControl\build\extension.xml -swc D:\Dropbox\LIB\ANE\TorchControl\build\TorchControlLib.swc -platform iPhone-ARM -C D:\Dropbox\LIB\ANE\TorchControl\build\ios . -platformoptions D:\Dropbox\LIB\ANE\TorchControl\build\platformoptions.xml -platform default -C D:\Dropbox\LIB\ANE\TorchControl\build\default .
